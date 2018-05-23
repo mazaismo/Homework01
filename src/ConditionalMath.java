@@ -18,11 +18,11 @@ public class ConditionalMath {
 		b = input.nextInt();
 		
 		if (a > b) {
-			System.out.println("Pirmais ievadîtais skaitlis ir lielâks par otru");
+			System.out.println(a + " ir lielâks par skaitli " + b);
 		}
 		else {
 			if (a < b) {
-				System.out.println("Otrais ievadîtais skaitlis ir lielâks par pirmo");
+				System.out.println(a + " ir mazâks par skaitli " + b);
 			}
 			else {
 				System.out.println("Jûsu ievadîtie skaitïi ir vienâdi");
